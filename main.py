@@ -18,6 +18,7 @@ def main(*args, **kwargs):
     print(outra.__dict__)
     print(outra.__class__)
     print(outra.__class__.__dict__)
+    print(outra.__class__.__name__)
     print(*args, **kwargs)
 
 
